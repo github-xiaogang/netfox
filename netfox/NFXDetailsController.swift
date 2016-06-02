@@ -30,7 +30,7 @@ class NFXDetailsController: NFXGenericController, MFMailComposeViewControllerDel
     {
         super.viewDidLoad()
         
-        self.title = "Details"
+        self.title = "详情"
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: Selector("actionButtonPressed:"))
         
@@ -117,18 +117,13 @@ class NFXDetailsController: NFXGenericController, MFMailComposeViewControllerDel
     
     func actionButtonPressed(sender: UIBarButtonItem)
     {
-        let actionSheetController: UIAlertController = UIAlertController(title: "Share", message: "", preferredStyle: .ActionSheet)
+        let actionSheetController: UIAlertController = UIAlertController(title: "发送", message: "", preferredStyle: .ActionSheet)
         
-        let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .Cancel) { action -> Void in
+        let cancelAction: UIAlertAction = UIAlertAction(title: "取消", style: .Cancel) { action -> Void in
         }
         actionSheetController.addAction(cancelAction)
         
-        let simpleLog: UIAlertAction = UIAlertAction(title: "Simple log", style: .Default) { action -> Void in
-            self.sendMailWithBodies(false)
-        }
-        actionSheetController.addAction(simpleLog)
-        
-        let fullLogAction: UIAlertAction = UIAlertAction(title: "Full log", style: .Default) { action -> Void in
+        let fullLogAction: UIAlertAction = UIAlertAction(title: "邮件发送", style: .Default) { action -> Void in
             self.sendMailWithBodies(true)
         }
         actionSheetController.addAction(fullLogAction)

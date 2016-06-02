@@ -46,7 +46,7 @@ public class NFX: NSObject
             }
         }
     }
-    
+//总开关
     private var started: Bool = false
     private var presented: Bool = false
     private var enabled: Bool = false
@@ -58,8 +58,11 @@ public class NFX: NSObject
     @objc public func start()
     {
         self.started = true
+        //注册 NFXProtocol<NSURLProtocol>
         register()
+        //enable
         enable()
+        //移除
         clearOldData()
         showMessage("Started!")
     }

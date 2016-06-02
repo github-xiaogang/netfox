@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF42DD81CFEDFC3003A142B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF42DD71CFEDFC3003A142B /* main.m */; };
+		1FF42DDB1CFEDFC3003A142B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF42DDA1CFEDFC3003A142B /* AppDelegate.m */; };
+		1FF42DDE1CFEDFC3003A142B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF42DDD1CFEDFC3003A142B /* ViewController.m */; };
+		1FF42DE11CFEDFC3003A142B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF42DDF1CFEDFC3003A142B /* Main.storyboard */; };
+		1FF42DE31CFEDFC3003A142B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF42DE21CFEDFC3003A142B /* Assets.xcassets */; };
+		1FF42DE61CFEDFC3003A142B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF42DE41CFEDFC3003A142B /* LaunchScreen.storyboard */; };
+		1FF42DEE1CFEE44C003A142B /* NFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B51C0DDBD8001A56E0 /* NFX.swift */; };
+		1FF42DEF1CFEE44C003A142B /* NFXAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B61C0DDBD8001A56E0 /* NFXAssets.swift */; };
+		1FF42DF01CFEE44C003A142B /* NFXDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B71C0DDBD8001A56E0 /* NFXDetailsController.swift */; };
+		1FF42DF11CFEE44C003A142B /* NFXGenericBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B81C0DDBD8001A56E0 /* NFXGenericBodyDetailsController.swift */; };
+		1FF42DF21CFEE44C003A142B /* NFXGenericController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B91C0DDBD8001A56E0 /* NFXGenericController.swift */; };
+		1FF42DF31CFEE44C003A142B /* NFXHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42BA1C0DDBD8001A56E0 /* NFXHelper.swift */; };
+		1FF42DF41CFEE44C003A142B /* NFXHTTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42BB1C0DDBD8001A56E0 /* NFXHTTPModel.swift */; };
+		1FF42DF51CFEE44C003A142B /* NFXHTTPModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42BC1C0DDBD8001A56E0 /* NFXHTTPModelManager.swift */; };
+		1FF42DF61CFEE44C003A142B /* NFXImageBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42BD1C0DDBD8001A56E0 /* NFXImageBodyDetailsController.swift */; };
+		1FF42DF71CFEE44C003A142B /* NFXInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42BE1C0DDBD8001A56E0 /* NFXInfoController.swift */; };
+		1FF42DF81CFEE44C003A142B /* NFXListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42BF1C0DDBD8001A56E0 /* NFXListCell.swift */; };
+		1FF42DF91CFEE44C003A142B /* NFXListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42C01C0DDBD8001A56E0 /* NFXListController.swift */; };
+		1FF42DFA1CFEE44C003A142B /* NFXProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42C11C0DDBD8001A56E0 /* NFXProtocol.swift */; };
+		1FF42DFB1CFEE44C003A142B /* NFXRawBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42C21C0DDBD8001A56E0 /* NFXRawBodyDetailsController.swift */; };
+		1FF42DFC1CFEE44C003A142B /* NFXSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42C31C0DDBD8001A56E0 /* NFXSettingsController.swift */; };
+		1FF42DFD1CFEE44C003A142B /* NFXStatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42C41C0DDBD8001A56E0 /* NFXStatisticsController.swift */; };
 		CEFE42C51C0DDBD8001A56E0 /* NFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B51C0DDBD8001A56E0 /* NFX.swift */; };
 		CEFE42C61C0DDBD8001A56E0 /* NFXAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B61C0DDBD8001A56E0 /* NFXAssets.swift */; };
 		CEFE42C71C0DDBD8001A56E0 /* NFXDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE42B71C0DDBD8001A56E0 /* NFXDetailsController.swift */; };
@@ -26,6 +48,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FF42DD41CFEDFC3003A142B /* netfox_oc_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netfox_oc_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF42DD71CFEDFC3003A142B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF42DD91CFEDFC3003A142B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FF42DDA1CFEDFC3003A142B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FF42DDC1CFEDFC3003A142B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FF42DDD1CFEDFC3003A142B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FF42DE01CFEDFC3003A142B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FF42DE21CFEDFC3003A142B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF42DE51CFEDFC3003A142B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FF42DE71CFEDFC3003A142B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3BC020F1C09CDA000C17F3A /* netfox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = netfox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFE42B51C0DDBD8001A56E0 /* NFX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFX.swift; sourceTree = "<group>"; };
 		CEFE42B61C0DDBD8001A56E0 /* NFXAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFXAssets.swift; sourceTree = "<group>"; };
@@ -46,6 +78,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1FF42DD11CFEDFC3003A142B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BC020B1C09CDA000C17F3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,10 +95,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FF42DD51CFEDFC3003A142B /* netfox_oc_demo */ = {
+			isa = PBXGroup;
+			children = (
+				1FF42DD91CFEDFC3003A142B /* AppDelegate.h */,
+				1FF42DDA1CFEDFC3003A142B /* AppDelegate.m */,
+				1FF42DDC1CFEDFC3003A142B /* ViewController.h */,
+				1FF42DDD1CFEDFC3003A142B /* ViewController.m */,
+				1FF42DDF1CFEDFC3003A142B /* Main.storyboard */,
+				1FF42DE21CFEDFC3003A142B /* Assets.xcassets */,
+				1FF42DE41CFEDFC3003A142B /* LaunchScreen.storyboard */,
+				1FF42DE71CFEDFC3003A142B /* Info.plist */,
+				1FF42DD61CFEDFC3003A142B /* Supporting Files */,
+			);
+			path = netfox_oc_demo;
+			sourceTree = "<group>";
+		};
+		1FF42DD61CFEDFC3003A142B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF42DD71CFEDFC3003A142B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B3BC02051C09CDA000C17F3A = {
 			isa = PBXGroup;
 			children = (
 				CEFE42B41C0DDBD8001A56E0 /* netfox */,
+				1FF42DD51CFEDFC3003A142B /* netfox_oc_demo */,
 				B3BC02101C09CDA000C17F3A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				B3BC020F1C09CDA000C17F3A /* netfox.framework */,
+				1FF42DD41CFEDFC3003A142B /* netfox_oc_demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +173,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1FF42DD31CFEDFC3003A142B /* netfox_oc_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF42DEA1CFEDFC3003A142B /* Build configuration list for PBXNativeTarget "netfox_oc_demo" */;
+			buildPhases = (
+				1FF42DD01CFEDFC3003A142B /* Sources */,
+				1FF42DD11CFEDFC3003A142B /* Frameworks */,
+				1FF42DD21CFEDFC3003A142B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = netfox_oc_demo;
+			productName = netfox_oc_demo;
+			productReference = 1FF42DD41CFEDFC3003A142B /* netfox_oc_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B3BC020E1C09CDA000C17F3A /* netfox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3BC02171C09CDA000C17F3A /* Build configuration list for PBXNativeTarget "netfox" */;
@@ -135,6 +217,9 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = kasketis;
 				TargetAttributes = {
+					1FF42DD31CFEDFC3003A142B = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					B3BC020E1C09CDA000C17F3A = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -146,6 +231,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B3BC02051C09CDA000C17F3A;
 			productRefGroup = B3BC02101C09CDA000C17F3A /* Products */;
@@ -153,11 +239,22 @@
 			projectRoot = "";
 			targets = (
 				B3BC020E1C09CDA000C17F3A /* netfox */,
+				1FF42DD31CFEDFC3003A142B /* netfox_oc_demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1FF42DD21CFEDFC3003A142B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF42DE61CFEDFC3003A142B /* LaunchScreen.storyboard in Resources */,
+				1FF42DE31CFEDFC3003A142B /* Assets.xcassets in Resources */,
+				1FF42DE11CFEDFC3003A142B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BC020D1C09CDA000C17F3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +265,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1FF42DD01CFEDFC3003A142B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF42DFB1CFEE44C003A142B /* NFXRawBodyDetailsController.swift in Sources */,
+				1FF42DF31CFEE44C003A142B /* NFXHelper.swift in Sources */,
+				1FF42DF51CFEE44C003A142B /* NFXHTTPModelManager.swift in Sources */,
+				1FF42DEF1CFEE44C003A142B /* NFXAssets.swift in Sources */,
+				1FF42DFD1CFEE44C003A142B /* NFXStatisticsController.swift in Sources */,
+				1FF42DEE1CFEE44C003A142B /* NFX.swift in Sources */,
+				1FF42DF21CFEE44C003A142B /* NFXGenericController.swift in Sources */,
+				1FF42DDE1CFEDFC3003A142B /* ViewController.m in Sources */,
+				1FF42DFC1CFEE44C003A142B /* NFXSettingsController.swift in Sources */,
+				1FF42DF11CFEE44C003A142B /* NFXGenericBodyDetailsController.swift in Sources */,
+				1FF42DF91CFEE44C003A142B /* NFXListController.swift in Sources */,
+				1FF42DF71CFEE44C003A142B /* NFXInfoController.swift in Sources */,
+				1FF42DF81CFEE44C003A142B /* NFXListCell.swift in Sources */,
+				1FF42DFA1CFEE44C003A142B /* NFXProtocol.swift in Sources */,
+				1FF42DDB1CFEDFC3003A142B /* AppDelegate.m in Sources */,
+				1FF42DD81CFEDFC3003A142B /* main.m in Sources */,
+				1FF42DF61CFEE44C003A142B /* NFXImageBodyDetailsController.swift in Sources */,
+				1FF42DF41CFEE44C003A142B /* NFXHTTPModel.swift in Sources */,
+				1FF42DF01CFEE44C003A142B /* NFXDetailsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3BC020A1C09CDA000C17F3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,7 +316,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		1FF42DDF1CFEDFC3003A142B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF42DE01CFEDFC3003A142B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FF42DE41CFEDFC3003A142B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF42DE51CFEDFC3003A142B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		1FF42DE81CFEDFC3003A142B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = netfox_oc_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyeah.netfox-oc-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FF42DE91CFEDFC3003A142B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = netfox_oc_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lyeah.netfox-oc-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B3BC02151C09CDA000C17F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +488,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1FF42DEA1CFEDFC3003A142B /* Build configuration list for PBXNativeTarget "netfox_oc_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF42DE81CFEDFC3003A142B /* Debug */,
+				1FF42DE91CFEDFC3003A142B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B3BC02091C09CDA000C17F3A /* Build configuration list for PBXProject "netfox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
